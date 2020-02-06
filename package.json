@@ -15,6 +15,7 @@
         "type": "git",
         "url": "https://github.com/itorralbo/vscode-esatan.git"
     },
+    "icon": "images/icon.png",
     "contributes": {
         "languages": [{
             "id": "esatan",

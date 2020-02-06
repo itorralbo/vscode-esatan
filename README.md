@@ -6,7 +6,17 @@ This is the README for VS Code extension esatan. Code Highlighting.
 
 We wil see.
 
-## Requirements
+## Installing
+Install node.js and VSCE ("Visual Studio Code Extensions")
+
+```console
+npm install -g vsce
+```
+then install the extension using
+```console
+cd vsix
+code --install-extension esatan-0.0.1.vsix
+```
 
 For compiling .d file, install Code Runner extension and set:
 ```javascript
