@@ -10,6 +10,11 @@
     "categories": [
         "Programming Languages"
     ],
+    "homepage": "https://github.com/itorralbo/vscode-esatan/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/itorralbo/vscode-esatan.git"
+    },
     "contributes": {
         "languages": [{
             "id": "esatan",
