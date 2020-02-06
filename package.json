@@ -1,0 +1,33 @@
+{
+    "name": "esatan",
+    "displayName": "vscode-esatan",
+    "description": "ESATAN made easy",
+    "version": "0.0.1",
+    "publisher": "itorralbo",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "esatan",
+            "aliases": ["ESATAN", "esatan"],
+            "extensions": [".d",".esa","ESA",".data"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "esatan",
+            "scopeName": "source.esatan",
+            "path": "./syntaxes/esatan.tmLanguage"
+        }]
+    },
+    "configurationDefaults": {
+        "esatan": {
+            "code-runner.executorMap": {
+                "esatan": "C:\\usr\\ESATAN-TMS\\2019sp1\\Thermal\\bin\\esatan.bat e $dir $fileNameWithoutExt $fileName . no"
+            }
+        }
+    }
+}
