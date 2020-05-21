@@ -26,6 +26,16 @@ For compiling .d file, install Code Runner extension and set:
 ```  
 in the user settings.json file.
 
+## Developing
+To develope the extension, run the package.json file from VS Code. 
+The changes must be updates in the .vsix file by doing
+```
+vsce package
+```
+and then move the .vsix file to the \vsix directory.
+
+User must installa again the extension.
+
 ## Extension Settings
 
 ??
