@@ -38,10 +38,10 @@ User must installa again the extension.
 
 ## Snippets
 
-Abre Visual Studio Code.
-Presiona Ctrl+Shift+P y busca "Preferences: Configure Snippets".
-Selecciona la opción "New Global Snippets file..." o abre el existente.
-Copia el contenido del archivo descargado (snippets/esatan.code-snippets) allí.
+- Abre Visual Studio Code.
+- Presiona Ctrl+Shift+P y busca "Preferences: Configure Snippets".
+- Selecciona la opción "New Global Snippets file..." o abre el existente.
+- Copia el contenido del archivo descargado (snippets/esatan.code-snippets) allí.
 
 ## Known Issues
 
