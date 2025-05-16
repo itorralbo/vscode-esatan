@@ -1,0 +1,142 @@
+{
+  "AFUNCI": {
+    "prefix": "AFUNCI",
+    "body": [
+      "CALL AFUNCI(${1:IFUNC}, ${2:ANAME1}, ${3:ANAME2})"
+    ],
+    "description": "Set ANAME2 elements equal to integer function IFUNC of ANAME1 elements."
+  },
+  "AFUNCR": {
+    "prefix": "AFUNCR",
+    "body": [
+      "CALL AFUNCR(${1:DFUNC}, ${2:ANAME1}, ${3:ANAME2})"
+    ],
+    "description": "Set ANAME2 elements equal to double precision function DFUNC of ANAME1 elements."
+  },
+  "AFUNI2": {
+    "prefix": "AFUNI2",
+    "body": [
+      "CALL AFUNI2(${1:IFUNC}, ${2:ANAME1}, ${3:ANAME2}, ${4:ANAME3})"
+    ],
+    "description": "Two-argument integer function IFUNC with ANAME1 and ANAME2, result in ANAME3."
+  },
+  "AFUNR2": {
+    "prefix": "AFUNR2",
+    "body": [
+      "CALL AFUNR2(${1:DFUNC}, ${2:ANAME1}, ${3:ANAME2}, ${4:ANAME3})"
+    ],
+    "description": "Two-argument double precision function DFUNC with ANAME1 and ANAME2, result in ANAME3."
+  },
+  "AGPRG": {
+    "prefix": "AGPRG",
+    "body": [
+      "CALL AGPRG(${1:ARRNAM}, ${2:VAL}, ${3:FAC})"
+    ],
+    "description": "Set array elements in geometric progression starting at VAL, increasing by FAC."
+  },
+  "AGPRGL": {
+    "prefix": "AGPRGL",
+    "body": [
+      "CALL AGPRGL(${1:ARRNAM}, ${2:VAL}, ${3:FAC}, ${4:LIM})"
+    ],
+    "description": "Set array elements in geometric progression with limit LIM."
+  },
+  "AELINV": {
+    "prefix": "AELINV",
+    "body": [
+      "CALL AELINV(${1:ANAME1}, ${2:ANAME2})"
+    ],
+    "description": "Copy reciprocal values from ANAME1 into ANAME2."
+  },
+  "AVADD": {
+    "prefix": "AVADD",
+    "body": [
+      "CALL AVADD(${1:ANAME1}, ${2:VAL}, ${3:ANAME2})"
+    ],
+    "description": "Add scalar VAL to ANAME1, store result in ANAME2."
+  },
+  "AVSUB": {
+    "prefix": "AVSUB",
+    "body": [
+      "CALL AVSUB(${1:ANAME1}, ${2:VAL}, ${3:ANAME2})"
+    ],
+    "description": "Subtract scalar VAL from ANAME1, store result in ANAME2."
+  },
+  "AVMLT": {
+    "prefix": "AVMLT",
+    "body": [
+      "CALL AVMLT(${1:ANAME1}, ${2:VAL}, ${3:ANAME2})"
+    ],
+    "description": "Multiply ANAME1 by scalar VAL, store result in ANAME2."
+  },
+  "AVDIV": {
+    "prefix": "AVDIV",
+    "body": [
+      "CALL AVDIV(${1:ANAME1}, ${2:VAL}, ${3:ANAME2})"
+    ],
+    "description": "Divide ANAME1 by scalar VAL, store result in ANAME2."
+  },
+  "GRPMIN": {
+    "prefix": "GRPMIN",
+    "body": [
+      "GRPMIN(${1:ZLABEL}, ${2:ZENT}, ${3:CNAME})"
+    ],
+    "description": "Returns minimum of entity ZENT for nodes in group ZLABEL."
+  },
+  "GRPMAX": {
+    "prefix": "GRPMAX",
+    "body": [
+      "GRPMAX(${1:ZLABEL}, ${2:ZENT}, ${3:CNAME})"
+    ],
+    "description": "Returns maximum of entity ZENT for nodes in group ZLABEL."
+  },
+  "GRPSUM": {
+    "prefix": "GRPSUM",
+    "body": [
+      "GRPSUM(${1:ZLABEL}, ${2:ZENT}, ${3:CNAME})"
+    ],
+    "description": "Returns sum of entity ZENT for nodes in group ZLABEL."
+  },
+  "GRPAVE": {
+    "prefix": "GRPAVE",
+    "body": [
+      "GRPAVE(${1:ZLABEL}, ${2:ZENT}, ${3:CNAME})"
+    ],
+    "description": "Returns average of entity ZENT for nodes in group ZLABEL."
+  },
+  "GRPLST": {
+    "prefix": "GRPLST",
+    "body": [
+      "CALL GRPLST(${1:ZLABEL}, ${2:CNAME}, ${3:NODLST}, ${4:N})"
+    ],
+    "description": "Stores internal node numbers of nodes in ZLABEL into array NODLST."
+  },
+  "AVG": {
+    "prefix": "AVG",
+    "body": [
+      "AVG(${1:VAL1}, ${2:VAL2})"
+    ],
+    "description": "Returns the average of VAL1 and VAL2."
+  },
+  "BEFORE": {
+    "prefix": "BEFORE",
+    "body": [
+      "BEFORE(${1:Event}, ${2:OCCUR})"
+    ],
+    "description": "Returns true if current time is before the event."
+  },
+  "AFTER": {
+    "prefix": "AFTER",
+    "body": [
+      "AFTER(${1:Event}, ${2:OCCUR})"
+    ],
+    "description": "Returns true if current time is after the event."
+  },
+  "BTWEEN": {
+    "prefix": "BTWEEN",
+    "body": [
+      "BTWEEN(${1:Event1}, ${2:Event2}, ${3:OCCUR})"
+    ],
+    "description": "Returns true if current time is between Event1 and Event2."
+  }
+}

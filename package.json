@@ -17,17 +17,29 @@
     },
     "icon": "images/icon.png",
     "contributes": {
-        "languages": [{
-            "id": "esatan",
-            "aliases": ["ESATAN", "esatan"],
-            "extensions": [".d",".esa","ESA",".data"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "esatan",
-            "scopeName": "source.esatan",
-            "path": "./syntaxes/esatan.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "esatan",
+                "aliases": [
+                    "ESATAN",
+                    "esatan"
+                ],
+                "extensions": [
+                    ".d",
+                    ".esa",
+                    "ESA",
+                    ".data"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "esatan",
+                "scopeName": "source.esatan",
+                "path": "./syntaxes/esatan.tmLanguage"
+            }
+        ]
     },
     "configurationDefaults": {
         "esatan": {

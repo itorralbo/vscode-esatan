@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
@@ -119,7 +121,7 @@
 					<key>include</key>
 					<string>$self</string>
 				</dict>
-			<dict><key>comment</key><string>Additional ESATAN Keywords and Functions</string><key>match</key><string>\b($ENDMODEL|$ELEMENT|$SUBSTITUTIONS|$EXTERNAL|$REPEAT|$VIRTUAL|$LOCALS|$NODES|$ALIAS|$CONDUCTORS|$CONSTANTS|$ARRAYS|$EVENTS|$SUBROUTINES|$INITIAL|$VARIABLES1|$VARIABLES2|$EXECUTION|$OUTPUTS|$PARAMETERS|CHANGE|SCALE|ON|OFF|INTEGER|DOUBLE|PRECISION|CHARACTER|REAL|COMPLEX|LOGICAL|DO|END|STEP|IF|THEN|ELSE|ENDIF|FOR|FUNCTION|SUBROUTINE|CALL|SLFRWD|SLCRNC|SLFWBK|SLGEAR|SLMODE|SOLVIT|SOLVCG|SLFRTF|FGENFI|FGENSS|FLTMTS|FLTNTF|SOLCYC|GFF|SETNOD|SETCON|DUMP|SAVET|FETCHT|PRINT|TAB|OUTPUT|GETNOD|SETVAL|EVALFR|UPDACD|CONVF|THERMO|HEATFL|ABSHFL|VCORR)\b</string><key>name</key><string>keyword.additional.esatan</string></dict></array>
+			</array>
 		</dict>
 		<dict>
 			<key>begin</key>

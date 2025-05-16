@@ -36,9 +36,12 @@ and then move the .vsix file to the \vsix directory.
 
 User must installa again the extension.
 
-## Extension Settings
+## Snippets
 
-??
+Abre Visual Studio Code.
+Presiona Ctrl+Shift+P y busca "Preferences: Configure Snippets".
+Selecciona la opción "New Global Snippets file..." o abre el existente.
+Copia el contenido del archivo descargado (snippets/esatan.code-snippets) allí.
 
 ## Known Issues
 
